@@ -11,9 +11,9 @@ namespace WinFormsApp1
         }
 
         // CBT endpoint
-        private const string BlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=techeffautomation;AccountKey=GwHx5feXxqFHNC8CGaXWyq3/+diuZaEn1cqz+Gi7WQqlZAo2sEmx5vE6N8H7VcM8sPicKtoUH0MW+AStN3zX4Q==;EndpointSuffix=core.windows.net";
+        //private const string BlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=techeffautomation;AccountKey=GwHx5feXxqFHNC8CGaXWyq3/+diuZaEn1cqz+Gi7WQqlZAo2sEmx5vE6N8H7VcM8sPicKtoUH0MW+AStN3zX4Q==;EndpointSuffix=core.windows.net";
         // uniliver endpoint
-        //private const string BlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=bincetecheffd931146stg01;AccountKey=twJ89WMhTda7XCB4zIDnE7+jRnHS5xSFl1u4ir2+ncxoX8mQBxJxxjjFoCyOkZOcb9jJR3HmpfcK+AStcIFuLQ==;EndpointSuffix=core.windows.net";
+        private const string BlobStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=bincetecheffd931146stg01;AccountKey=twJ89WMhTda7XCB4zIDnE7+jRnHS5xSFl1u4ir2+ncxoX8mQBxJxxjjFoCyOkZOcb9jJR3HmpfcK+AStcIFuLQ==;EndpointSuffix=core.windows.net";
         private const string BlobContainerName = "techeffweighbridgeautomation";
 
         private async void button1_Click(object sender, EventArgs e)
