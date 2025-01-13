@@ -33,11 +33,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(318, 158);
+            button1.Location = new Point(295, 209);
             button1.Name = "button1";
-            button1.Size = new Size(94, 29);
+            button1.Size = new Size(125, 29);
             button1.TabIndex = 0;
-            button1.Text = "button1";
+            button1.Text = "Upload Excel";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
